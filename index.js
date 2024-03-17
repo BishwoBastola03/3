@@ -19,7 +19,7 @@ app.get('/api/completions', async (req, res) => {
             {
                 prompt: prompt,
                 model: 'text-davinci-002', // Or any other model you prefer
-                max_tokens: 50 // Adjust based on your needs
+                max_tokens: 1650 // Adjust based on your needs
             },
             {
                 headers: {
